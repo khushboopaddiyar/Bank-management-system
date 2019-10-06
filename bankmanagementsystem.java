@@ -17,9 +17,9 @@ public class bank
 		int ch;
 		do
 		{
-			System.out.println("Main Menu\n 1.Display All \n 2.Search \n 3.Withdrawal \n 4.deposit \n 5.cheque \n 6. Exit");
+			System.out.println("Main Menu\n 1.Display All \n 2.Search \n 3.Withdrawal \n 4.deposit \n 5.cheque \n 6. Exit\n");
 			
-			System.out.println("Ur Choice :");
+			System.out.println("Enter your Choice : ");
 			ch=sc.nextInt();
 			switch(ch)
 			{ 
@@ -43,12 +43,12 @@ public class bank
 					}
 					if(!found)
 					{
-						System.out.println("Search Failed..Account Not Exist..");
+						System.out.println("\nSearch Failed..Account Not Exist..");
 					}
 					break;
 
 				case 4:
-					System.out.print("Enter Account No : ");
+					System.out.print("\nEnter Account No : ");
 			           acn=sc.next();
                  	  found=false;
 					for(int i=0;i<C.length;i++)
@@ -62,13 +62,13 @@ public class bank
 					}
 					if(!found)
 					{
-						System.out.println("Search Failed..Account Not Exist..");
+						System.out.println("\nSearch Failed..Account Not Exist..");
 					}
 					break;
 				
 
 				case 3:
-					System.out.print("Enter Account No : ");
+					System.out.print("\nEnter Account No : ");
 					acn=sc.next();
 					found=false;
 					for(int i=0;i<C.length;i++)
@@ -82,13 +82,13 @@ public class bank
 					}
 					if(!found)
 					{
-						System.out.println("Search Failed..Account Not Exist..");
+						System.out.println("\nSearch Failed..Account Not Exist..");
 					}
 					
 					break;
 
 				case 5:
-					System.out.print("Enter Account No : ");
+					System.out.print("\nEnter Account No : ");
 				acn=sc.next();
 				found=false;
 				for(int i=0;i<C.length;i++)
@@ -102,13 +102,13 @@ public class bank
 				}
 				if(!found)
 				{
-					System.out.println("Search Failed..Account Not Exist..");
+					System.out.println("\nSearch Failed..Account Not Exist..");
 				}
 					
 					break;
 
 				case 6:
-					System.out.println("Good Bye..");
+					System.out.println("\nGood Bye...");
 					break;
 					
 			}

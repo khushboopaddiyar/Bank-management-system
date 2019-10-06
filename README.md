@@ -1,3 +1,7 @@
 # Bank-management-system
-It is a project for banking management.
+
+this project tells about basic of bank management system.
 					
+
+this project tells about basic of bank management system.					
+
